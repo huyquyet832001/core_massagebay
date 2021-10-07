@@ -1,0 +1,60 @@
+@font-face{font-family:"fonttitle";src:url(../fonts/Roboto-Bold.ttf)}@font-face{font-family:"fontform";src:url(../fonts/MYRIADPRO-REGULAR.OTF)}@font-face{font-family:"fontnew";src:url(../fonts/Roboto-Regular.ttf)}@font-face{font-family:"roboto";src:url(../fonts/Roboto-Black.ttf)}@font-face{font-family:"fontinput";src:url(../fonts/RobotoCondensed-Light.ttf)}.header_background{background-image:url('../images/Rectangle.png'), url('../images/layer.png')}.header
+.nav{background-image:url('../images/Rectangle2.png')}.nav
+ul{margin:0
+auto;padding:8px
+0px}.nav ul
+li{display:inline-block;list-style:none;padding-left:30px;padding-right:30px;position:relative}.nav ul li
+a{text-decoration:none;color:#010101;font-size:18px;font-family:'Myriad Pro'}.nav ul li::after{content:'|';color:#010101;position:absolute;top:0;right:0}.nav ul li:last-child::after{content:''}.nav ul li a:hover::before{content:'';position:absolute;width:70px;height:2px;background-image:url(../images/menu-bottom.png);bottom:0%}.toggle{font-size:20px;padding-left:10px;cursor:pointer;display:none}.toggle
+span{position:absolute;left:34%;color:#010101;font-size:18px;font-family:'Myriad Pro'}.header_mobile{background-image:url('../images/Rectangle2.png');position:relative}.nav_overlay{position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.3);z-index:1;display:none}.nav_mobile{position:fixed;top:0;left:0;right:0;bottom:0;width:320px;max-width:100%;z-index:1;background-color:#fff;transform:translateX(-100%);transition:transform linear 0.4s}.nav_mobile-list{margin-top:24px;padding:0}.nav_mobile-list
+li{list-style:none;border-bottom:1px solid #ccc}.nav_mobile-list li
+a{text-decoration:none;color:#010101;font-size:18px;font-family:'Myriad Pro';display:block;padding:8px
+0px 8px 15px}.nav_mobile-close{font-size:20px;position:absolute;right:1rem;cursor:pointer}.nav_input{display:none}.nav_input:checked~.nav_overlay{display:block}.nav_input:checked~.nav_mobile{transform:translateX(0)}.nav ul li
+ul{position:absolute;z-index:1;display:none;padding:0;width:200px}.nav ul li:hover
+ul{display:block}.nav ul li > ul
+li{background-image:url('../images/Rectangle2.png');text-align:left;padding:1rem 1rem;color:#fff;width:100%}.nav ul li > ul li::after{content:''}.nav ul li ul li
+a{color:black}.footer_top{background-color:#ebebeb;padding-top:30px}.footer_top_page
+h6{font-size:14px;color:#333;font-weight:bold;font-family:"Arial"}.footer_top_page ul li
+a{text-decoration:none;color:#333;font-size:14px;font-family:"Arial"}.footer_top_post
+h6{font-size:14px;color:#333;font-weight:bold;font-family:"Arial"}.footer_top_post ul li
+a{text-decoration:none;color:#333;font-size:14px;font-family:"Arial"}.footer_top_contact ul
+li{list-style:none}.footer_top_contact ul li
+a{text-decoration:none;color:#333;font-size:14px;font-family:"Arial"}.footer_bottom{padding:30px
+0px;background-color:#000003;font-size:14px;color:#fdfbfb;font-family:"Arial"}.footer_bottom>p{margin:0}.container-fluid{margin:0;padding:0}@font-face{font-family:"fontspa";src:url(../fonts/UVNKieu_B.TTF)}.title-spa{font-family:"fontspa";font-size:50px;color:#210f04}.tab-hr{margin-top:-13px}.nav_tab
+ul{display:flex;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}.nav_tab
+ul{margin-top:9px;border-bottom:none}.nav_tab ul
+li{padding-left:17px}.nav_tab ul li
+a{color:#333;font-size:14px;font-family:'Arial';border:1px
+solid #dee2e6;display:block;padding: .5rem 1rem;text-decoration:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out}.nav_tab ul li:first-child
+a{font-weight:bold;border-radius:0;background:#ebebeb }.nav_tab ul li a:hover{font-weight:bold;border-radius:0;background:#ebebeb }.search{padding:5px
+5px 0px 5px}.search .text-search{background:#ffb628;padding:8px
+5px;text-align:center;font-family:'Myriad Pro';font-size:14px;color:#000;margin:0}.form-search{padding:10px
+10px }.form-search
+p{font-size:14px;font-family:'Arial';color:#ffb628;margin:0}.form-search .form-control{border-radius:0;border:none;margin-bottom:15px }.form-search .form-select{border-radius:0;margin-bottom:15px }.form-search .form-select
+option{color:#033;font-size:14px;font-family:'Arial'}.form-search
+.star{font-size:12px;color:#fecd45}.form-search .star i:last-child{color:#999}.form-search button[type="submit"]{background:#ffb628;border:none;padding:0px
+20px;height:30px;margin-top:6px}.form-search button[type="submit"] i{font-size:14px}.content
+.card{border:none;border-radius:0;margin-bottom:30px;background:#ebebeb}.card
+.star{font-size:12px;color:#fecd45}.card .star i:last-child{color:#999}.card
+.card_header{padding:5px
+15px 0px 15px}.card .card_header .card_title
+a{text-decoration:none}.card .card_header .card_title
+h6{margin:0;padding:5px
+0px;font-size:14px;font-weight:bold;color:#333}.card .card_header
+.card_city{font-family:'Arial';font-size:12px;padding:5px
+0px;color:#333}.card .card-body
+p{font-family:'Arial';font-size:14px;color:#333}.card .card-body{padding:0
+15px 15px 15px}.represent{background-image:url('../images/Rectangle11.png'),url('../images/layer1.jpg');background-repeat:no-repeat;background-size:cover;color:#fff}.represent_title{font-family:"fontspa";font-size:50px;color:#ffb628}.Representative_item{padding-bottom:25px;margin-bottom:25px}.Representative_item_body
+a{text-decoration:none}.Representative_item_body a
+h6{font-size:18px;font-family:"Arial";color:#fffefe}.Representative_item_body>p{color:#999;font-size:14px;font-family:"Arial"}.news{background-image:url('../images/news.jpg');background-size:cover;padding-bottom:30px;color:#fff}.new_title{color:#7b0200;font-size:50px;font-family:"fontspa"}.new_item{background-color:#fff;margin-bottom:30px}.new_item_body{padding:10px
+10px}.new_item_body
+a{text-decoration:none}.new_item_body a
+h6{color:#7b0200;font-size:14px}.new_item_body>p{color:#333;font-size:13px}.new_view_all{text-decoration:none}.new_view_all
+button{background:none;border:1px
+solid #7b0200;padding:10px
+123px;color:#333;font-size:18px;font-family:"Myriad Pro"}@media screen and (max-width: 991px){.nav ul
+li{display:block;padding-bottom:20px}.toggle{display:block}.nav ul li::after{content:''}.new_view_all
+button{padding:10px
+50px}nav .nav-tabs
+li{padding-left:0}nav .nav-tabs{border-bottom:1px solid #ccc}.header_logo{margin:0
+auto;width:25%}.nav_pc{display:none}}@media (max-width: 1025px){.tab-hr{display:none}.footer_top .justify-content-end{justify-content:start !important}}@media screen and (min-width: 767px){.toggle
+span{position:absolute;left:43%}}

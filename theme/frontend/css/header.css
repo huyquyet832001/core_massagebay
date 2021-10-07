@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "fonttitle";
+    src: url(../fonts/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: "fontform";
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+  }
+  @font-face {
+    font-family: "fontnew";
+    src: url(../fonts/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Black.ttf);
+  }
+  @font-face {
+    font-family: "fontinput";
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+  }
+.header_background{
+    background-image: url('../images/Rectangle.png'), url('../images/layer.png');
+}
+.header .nav{
+    background-image: url('../images/Rectangle2.png');
+}
+.nav ul{
+    margin: 0 auto; 
+    padding: 8px 0px;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #010101;
+    font-size: 18px;
+  font-family: 'Myriad Pro';
+}
+.nav ul li::after{
+    content: '|';
+   color: #010101;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.nav ul li:last-child::after{
+    content: '';
+}
+.nav ul li a:hover::before{
+    content: '';
+    position: absolute;
+  width: 70px;
+  height: 2px;
+background-image: url(../images/menu-bottom.png);
+bottom: 0%;
+}
+.toggle{
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: none;
+}
+.toggle span{
+ position: absolute;
+ left: 34%;
+ color: #010101;
+    font-size: 18px;
+  font-family: 'Myriad Pro';
+}
+.header_mobile{
+  background-image: url('../images/Rectangle2.png');
+  position: relative;
+}
+.nav_overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  display: none;
+}
+.nav_mobile{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  max-width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  transform: translateX(-100%);
+  transition: transform linear 0.4s;
+}
+.nav_mobile-list{
+  margin-top: 24px;
+  padding: 0;
+}
+.nav_mobile-list li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  
+}
+.nav_mobile-list li a{
+  text-decoration: none;
+    color: #010101;
+    font-size: 18px;
+  font-family: 'Myriad Pro';
+  display: block;
+  padding: 8px 0px 8px 15px;
+}
+.nav_mobile-close{
+  font-size: 20px;
+ position: absolute;
+ right: 1rem;
+  cursor: pointer;
+}
+.nav_input{
+  display: none;
+}
+.nav_input:checked~.nav_overlay{
+  display: block;
+}
+.nav_input:checked~.nav_mobile{
+  transform: translateX(0);
+}
+.nav ul li ul {
+    position: absolute;
+z-index: 1;
+    display: none;
+    padding: 0;
+    width: 200px;
+  }
+  .nav ul li:hover ul {
+    display: block;
+  }
+.nav ul li > ul li {
+    background-image: url('../images/Rectangle2.png');
+    text-align: left;
+    padding: 1rem 1rem;
+    color: #fff;
+    width: 100%;
+  }
+  .nav ul li > ul li::after {
+      content: '';
+  }
+  .nav ul li ul li a {
+    color: black;
+  }
+  
+
+
+  
